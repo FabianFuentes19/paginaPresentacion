@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página de presentación personal">
+	<title>Mi presentación | Perfil personal</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="light light-one" aria-hidden="true"></div>
+	<div class="light light-two" aria-hidden="true"></div>
+	<div class="grid" aria-hidden="true"></div>
+
+	<main class="profile-shell">
+		<header class="topbar">
+			<span class="eyebrow"><span class="status-dot"></span> Mi espacio personal</span>
+			<span class="topbar-number">01 <span>/ 01</span></span>
+		</header>
+
+		<section class="intro" aria-labelledby="page-title">
+			<div class="intro-copy">
+				<p class="kicker">Hola, soy</p>
+				<!-- Cambia el nombre y la inicial por tus datos. -->
+				<h1 id="page-title">Carlos <span>Fabian</span><br>Fuentes <span>Soto</span></h1>
+				<p class="intro-text">Una pequeña ventana a lo que estudio, lo que disfruto y todo lo que me inspira.</p>
+				<a class="scroll-link" href="#datos"><span class="scroll-icon">↓</span> Conóceme</a>
+			</div>
+
+            <div class="portrait" aria-label="Foto de perfil">
+				<div class="portrait-ring"></div>
+				<div class="portrait-center"><img src="../pugberto.webp" alt="Foto de Carlos Fabian Fuentes Soto"></div>
+				<span class="orbit orbit-one"></span>
+				<span class="orbit orbit-two"></span>
+				<span class="portrait-label">PRESENTACIÓN</span>
+			</div>
+		</section>
+
+		<section class="details" id="datos" aria-label="Datos personales">
+			<div class="section-heading">
+				<span class="section-index">01</span>
+				<h2>Sobre tu servilleta</h2>
+				<span class="heading-line"></span>
+			</div>
+
+			<div class="details-grid">
+				<article class="detail-card detail-card-wide">
+					<span class="card-number">01</span>
+					<span class="card-icon">✦</span>
+					<div>
+						<p class="label">Nombre completo</p>
+						<h3>Carlos Fabian Fuentes Soto</h3>
+					</div>
+				</article>
+				<article class="detail-card accent-card">
+					<span class="card-number">02</span>
+					<span class="card-icon">⌁</span>
+					<div>
+						<p class="label">Carrera</p>
+						<h3>Desarrollo de Software</h3>
+					</div>
+				</article>
+				<article class="detail-card">
+					<span class="card-number">03</span>
+					<span class="card-icon">◈</span>
+					<div>
+						<p class="label">Grado y grupo</p>
+						<h3>Desarrollo de Software · Grupo A</h3>
+					</div>
+				</article>
+				<article class="detail-card music-card">
+					<span class="card-number">04</span>
+					<span class="card-icon">♫</span>
+					<div>
+						<p class="label">Tipo de música preferido</p>
+						<h3>Rock en español</h3>
+					</div>
+					<div class="sound-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+				</article>
+				<article class="detail-card favorite-card">
+					<span class="card-number">05</span>
+					<span class="card-icon">▹</span>
+					<div>
+						<p class="label">Película o serie favorita</p>
+						<h3>Cars</h3>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<span>Hecho con curiosidad</span>
+			<span class="footer-mark">✳</span>
+			<span>2026</span>
+		</footer>
+	</main>
+</body>
+</html>
